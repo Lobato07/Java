@@ -1,4 +1,4 @@
-package Java.poo1;
+package poo1;
 
 public class ex01 {
     public static void main(String[] args){

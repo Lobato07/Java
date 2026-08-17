@@ -1,4 +1,4 @@
-package Java.poo2;
+package poo2;
 
 public class ex02 {
     

@@ -1,4 +1,4 @@
-package Java.poo1;
+package poo1;
 
 public class Carro {
     String modelo;
