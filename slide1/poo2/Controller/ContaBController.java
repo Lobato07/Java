@@ -5,15 +5,15 @@ public class ContaBController{
 
     public static void main(String[] args){
         ContaB cliente1 = new ContaB("Caio", 500);
-        System.out.println(cliente1.getDono());
-        System.out.println(cliente1.getSaldo());
+        System.out.println("Cliente: "+cliente1.getDono());
+        System.out.println("Saldo: "+cliente1.getSaldo());
         cliente1.sacardinheiro(50);
 
-        System.out.println("-------------");
+        System.out.println("-------------------------------------------");
 
         ContaB cliente2 = new ContaB("Yan", 0);
-        System.out.println((cliente2.getDono()));
-        System.out.println(cliente2.getSaldo());
-        cliente2.sacardinheiro(20);
+        System.out.println(("Cliente: "+cliente2.getDono()));
+        System.out.println("Saldo: "+cliente2.getSaldo());
+        cliente2.depositardinheiros(100);
     }
 }

@@ -37,4 +37,10 @@ public class ContaB {
         }
     }
 
+    public void depositardinheiros(float qtd){
+        this.saldo += qtd;
+        System.out.println("Deposito realizado com sucesso!");
+        System.out.println(this.saldo);
+    }
+
 }
