@@ -9,11 +9,15 @@ public class ProdutoController {
         produto1.setValor(800.0);
         produto1.setEstoque(5);
 
-        Produto produto2 = new Produto();
+        // Produto produto1=new Produto("geladeira", 800, 5);
 
-        produto2.setNome("Fogao");
-        produto2.setValor(500.0);
-        produto2.setEstoque(4);
+        // Produto produto2 = new Produto();
+
+        Produto produto2=new Produto("Fogao", 500, 4);
+
+        // produto2.setNome("Fogao");
+        // produto2.setValor(500.0);
+        // produto2.setEstoque(4);
 
         System.out.println("Produto: "+produto1.getNome());
         System.out.println("Valor: "+produto1.getValor());
@@ -24,5 +28,7 @@ public class ProdutoController {
         System.out.println("Produto: "+produto2.getNome());
         System.out.println("Valor: "+produto2.getValor());
         System.out.println("Estoque: "+produto2.getEstoque());
+
+        
     }
 }

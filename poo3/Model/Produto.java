@@ -6,6 +6,19 @@ public class Produto {
     private double valor;
     private int estoque;
 
+    // serve pra settar normalmente
+    public Produto(){
+    }
+
+    // Constructor (inline la maluco)
+    public Produto(String nome, double valor, int estoque) {
+        this.nome = nome;
+        this.valor = valor;
+        this.estoque = estoque;
+    }
+    
+    // usar ctrl + . para usar o generate #ValeuYan
+
     public void setNome(String nome){
         this.nome = nome;
     }
@@ -26,4 +39,7 @@ public class Produto {
     public int getEstoque(){
         return this.estoque;
     }
+
+
+    
 }
