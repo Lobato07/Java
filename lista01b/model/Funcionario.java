@@ -4,19 +4,22 @@ public class Funcionario {
     
     private String name;
     private double wage;
+    private int id;
 
     public Funcionario(){
 
     }
 
-    public Funcionario(String name, double wage){
+    public Funcionario(String name, double wage, int id){
         this.name = name;
         this.wage = wage;
+        this.id = id;
     }
 
-    public Funcionario(String name, int wage){
+    public Funcionario(String name, int wage, int id){
     this.name = name;
     this.wage = wage;
+    this.id = id;
 }
 
     public String getName() {
@@ -35,9 +38,18 @@ public class Funcionario {
         this.wage = wage;
     }
 
+    
+    public int getId() {
+        return id;
+    }
+    
+    public void setId(int id) {
+        this.id = id;
+    }
+    
     @Override
     public String toString(){
-        return "Funcionario: "+name+", Salario: "+wage;
+        return "Funcionario["+id+"]: "+name+", Salario: "+wage;
     }
 
 }
