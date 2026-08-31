@@ -49,6 +49,13 @@ public class CarroController {
         System.out.println(carro4);
         System.out.println(carro5);
         System.out.println(carro6);
-        System.out.println("\n");
+        System.out.println("---------------------------------------------------------------------------");
+        
+        System.out.println(carro1.getMarca() + " " + carro1.getModelo() + " " + carro1.getAnoFabricacao());
+        System.out.println(carro2.getMarca() + " " + carro2.getModelo() + " " + carro2.getAnoFabricacao());
+        System.out.println(carro3.getMarca() + " " + carro3.getModelo() + " " + carro3.getAnoFabricacao());
+        System.out.println(carro4.getMarca() + " " + carro4.getModelo() + " " + carro4.getAnoFabricacao());
+        System.out.println(carro5.getMarca() + " " + carro5.getModelo() + " " + carro5.getAnoFabricacao());
+        System.out.println(carro6.getMarca() + " " + carro6.getModelo() + " " + carro6.getAnoFabricacao());
     }
 }
