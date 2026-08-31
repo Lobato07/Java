@@ -3,21 +3,37 @@ package lista01a.model;
 public class Conta {
     
     private double saldo;
+    private int id;
+
+    
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public Conta(){
-
+        
     }
-
-    public Conta(double saldo) {
+    
+    public Conta(double saldo, int id) {
         this.saldo = saldo;
+        this.id = id;
     }
-
+    
     public double getSaldo() {
         return saldo;
     }
-
-    public Conta(int saldo){
+    
+    public void setSaldo(double saldo) {
         this.saldo = saldo;
+    }
+
+    public Conta(int saldo, int id){
+        this.saldo = saldo;
+        this.id = id;
     }
 
     public void deposita(double valor){
@@ -39,7 +55,7 @@ public class Conta {
 
     @Override
     public String toString(){
-        return "";
+        return "Bem vindo "+ id +"! Saldo atual: " + saldo;  
     }
  
 }
