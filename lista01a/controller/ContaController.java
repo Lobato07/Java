@@ -33,12 +33,12 @@ public class ContaController {
     conta5.setSaldo(616);
     conta6.setSaldo(12.625);
 
-    System.out.println(conta1);
-    System.out.println(conta2);
-    System.out.println(conta3);
-    System.out.println(conta4);
-    System.out.println(conta5);
-    System.out.println(conta6);
+    System.out.println(conta1.getId() + " " + conta1.getSaldo());
+    System.out.println(conta2.getId() + " " + conta2.getSaldo());
+    System.out.println(conta3.getId() + " " + conta3.getSaldo());
+    System.out.println(conta4.getId() + " " + conta4.getSaldo());
+    System.out.println(conta5.getId() + " " + conta5.getSaldo());
+    System.out.println(conta6.getId() + " " + conta6.getSaldo());
     System.out.println("---------------------------------------------------------------------------");
 
     }
