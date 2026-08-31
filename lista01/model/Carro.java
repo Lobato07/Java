@@ -47,7 +47,7 @@ public class Carro {
 
     @Override
     public String toString(){
-        return "Carro [Marca = " + marca + ", Modelo = " + modelo + ", Ano = " + anoFabricacao + " ]";
+        return "Carro [Marca = " + marca + ", Modelo = " + modelo + ", Ano = " + anoFabricacao + "]";
     }
 
 }
