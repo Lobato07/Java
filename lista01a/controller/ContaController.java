@@ -31,7 +31,7 @@ public class ContaController {
     conta3.setSaldo(12);
     conta4.setSaldo(25);
     conta5.setSaldo(616);
-    conta6.setSaldo(12.625);
+    conta6.setSaldo(12625);
 
     System.out.println(conta1.getId() + " " + conta1.getSaldo());
     System.out.println(conta2.getId() + " " + conta2.getSaldo());
